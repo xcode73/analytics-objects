@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "analytics-objects",
     platforms: [
-       .macOS(.v10_15)
+       .macOS(.v12)
     ],
     products: [
         .library(name: "AnalyticsObjects", targets: ["AnalyticsObjects"]),
